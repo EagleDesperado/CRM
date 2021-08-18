@@ -19,7 +19,7 @@ public class Servlet extends javax.servlet.http.HttpServlet {
                 +"\"},\"s2\":{\"id\":\""+s2.getId()
                 +"\",\"name\":\""+s2.getName()
                 +"\",\"age\":"+s2.getAge()+"}}";
-
+        /////////////////////
         PrintWriter out = response.getWriter();
         out.print(str);
         out.flush();
